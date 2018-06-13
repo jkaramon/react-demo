@@ -60,7 +60,7 @@ export class UserDialogAnchor extends React.Component<Props, State> {
     const { modalVisible } = this.state;
     return (
       <div>
-        <ClickWrapper onClick={this.showModal}>{children}</ClickWrapper>
+        <ClickWrapper onDoubleClick={this.showModal}>{children}</ClickWrapper>
         {modalVisible && (
           <ModalDialog>{renderDialog(this.hideModal)}</ModalDialog>
         )}
