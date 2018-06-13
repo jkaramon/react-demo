@@ -113,7 +113,7 @@ export function HomePage() {
             for better code quality
           </ListItem>
           <ListItem>
-            <a href="https://facebook.github.io/jest/">eslint</a>
+            <a href="https://facebook.github.io/jest/">jest</a>
             for testing
           </ListItem>
 
