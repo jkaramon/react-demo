@@ -1,0 +1,33 @@
+parser: babel-eslint
+plugins:
+  - flowtype
+  - jest
+extends:
+  - airbnb
+  - prettier
+  - prettier/flowtype
+  - prettier/react
+settings:
+  import/resolver: webpack
+env:
+  jest/globals: true
+globals:
+  URL: true
+  window: true
+  fetch: true
+  WebSocket: true
+  localStorage: true
+rules:
+  linebreak-style: off
+  no-restricted-syntax: off
+  arrow-parens: [warn, as-needed]
+  react/jsx-filename-extension: off
+  react/no-unused-prop-types: off
+  comma-dangle: off
+  import/no-named-as-default-member: off
+  import/no-named-as-default: off
+  import/prefer-default-export: off
+  jsx-a11y/anchor-is-valid: off
+  max-len:
+    - error
+    - code: 120

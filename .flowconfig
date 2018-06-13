@@ -1,0 +1,29 @@
+[ignore]
+.*/node_modules/*
+
+[include]
+./src/*
+
+[libs]
+
+[lints]
+
+[options]
+module.name_mapper='ramda.*' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='react-dropzone.*' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='office-ui-fabric-react.*' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='react-dates.*' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='moment.*' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='react-timeago.*' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='react-router-dom.*' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='react-redux' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='react-select' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='react-sound' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='styled-components' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='luxon' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='reselect' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='polished' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='.*\.sass$' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.name_mapper='.*\.css' -> '<PROJECT_ROOT>/src/flow/general-stub.js.flow'
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=src
